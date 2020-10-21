@@ -13,6 +13,7 @@
 		52A6730D25409B6E00CA01FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52A6730B25409B6E00CA01FD /* Main.storyboard */; };
 		52A6730F25409B7000CA01FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A6730E25409B7000CA01FD /* Assets.xcassets */; };
 		52A6731225409B7000CA01FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52A6731025409B7000CA01FD /* LaunchScreen.storyboard */; };
+		52A6731B25409B8500CA01FD /* UIImageView+ContentClippingRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6731A25409B8500CA01FD /* UIImageView+ContentClippingRect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		52A6730E25409B7000CA01FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52A6731125409B7000CA01FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52A6731325409B7000CA01FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52A6731A25409B8500CA01FD /* UIImageView+ContentClippingRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+ContentClippingRect.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				52A6730E25409B7000CA01FD /* Assets.xcassets */,
 				52A6731025409B7000CA01FD /* LaunchScreen.storyboard */,
 				52A6731325409B7000CA01FD /* Info.plist */,
+				52A6731A25409B8500CA01FD /* UIImageView+ContentClippingRect.swift */,
 			);
 			path = PictureProtector;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			files = (
 				52A6730A25409B6E00CA01FD /* ViewController.swift in Sources */,
 				52A6730625409B6E00CA01FD /* AppDelegate.swift in Sources */,
+				52A6731B25409B8500CA01FD /* UIImageView+ContentClippingRect.swift in Sources */,
 				52A6730825409B6E00CA01FD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
